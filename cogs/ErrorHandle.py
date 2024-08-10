@@ -8,5 +8,9 @@ class ErrorHandle(commands.Cog):
         def __init__(self, server, *args, **kwargs):
             super().__init__(*args, **kwargs)
 
+    class CurrencyError(commands.CommandError):
+        def __init__(self, server, *args, **kwargs):
+            super().__init__(*args, **kwargs)
+
 async def setup(bot):
     await bot.add_cog(ErrorHandle(bot))

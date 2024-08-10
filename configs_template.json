@@ -1,0 +1,7 @@
+{
+    "token": "YourToken",
+    "cogs": [
+        "cogs.Music",
+        "cogs.ErrorHandle"
+    ]
+}
